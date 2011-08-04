@@ -1,13 +1,17 @@
 {
-  "name":         "auton",
-  "description":  "Extensible resource compiler/minifier/compressor tool",
-  "keywords":     ["javascript", "language", "css", "stylus","coffee-script", "compiler"],
-  "author":       "Rando Christensen <digiwano@gmail.com>",
-  "version":      "0.1.5",
-  "licenses":     [{
-    "type":       "MIT",
-    "url":        ""
-  }],
+  "author": "Rando Christensen <digiwano@gmail.com>",
+  "name": "auton",
+  "description": "Extensible resource compiler/minifier/compressor tool",
+  "version": "0.1.5",
+  "homepage": "https://github.com/digiwano/auton",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/digiwano/auton.git"
+  },
+  "main": "lib/auton",
+  "engines": {
+    "node": ">=v0.4.7"
+  },
   "dependencies": {
     "stylus":        ">=0.13.0",
     "nib":           ">=0.0.8",
@@ -19,13 +23,9 @@
     "watch-tree":    ">=0.1.1",
     "asyncjs":       ">=0.0.5"
   },
-  "directories" : {
-    "lib" : "./lib"
-  },
-  "main" : "./lib/auton",
-  "homepage":     "http://github.com/digiwano/auton",
-  "repository":   {
-    "type": "git",
-    "url": "git://github.com/digiwano/auton.git"
-  }
+  "devDependencies": {},
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        ""
+  }],
 }
