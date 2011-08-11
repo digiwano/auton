@@ -3,9 +3,9 @@
 documentation coming later. meanwhile, here's an example:
 
 ```javascript
-var auton = require('./lib/auton'),
+var auton    = require('./lib/auton'),
     Compiler = auton.Compiler,
-    steps    = auton.steps,
+    plugins  = auton.plugins,
     path     = require('path');
 
 var compiler = new Compiler('build', 'htdocs', true); // true is whether or not watch mode is on
@@ -13,7 +13,7 @@ var compiler = new Compiler('build', 'htdocs', true); // true is whether or not 
 compiler.addRule(
   /.js$/,
   javascriptSave,
-  [steps.read, steps.jshint, steps.minifyJs, steps.gzip, steps.save]
+  [plugins.read, plugins.jshint, plugins.uglify, plugins.gzip, plugins.save]
 );
 
 compiler.start();
