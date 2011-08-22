@@ -21,7 +21,8 @@
     "uglify-js":     ">=1.0.6",
     "coffee-script": ">=1.1.1",
     "watch-tree":    ">=0.1.1",
-    "asyncjs":       ">=0.0.5"
+    "asyncjs":       ">=0.0.5",
+    "colorize":      ">=0.1.0"
   },
   "devDependencies": {},
   "licenses":     [{
