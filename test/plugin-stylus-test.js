@@ -69,9 +69,9 @@ suite.addBatch({
           assert.include( context.data, "-webkit" );
         },
         
-        'contains an \'original\' save point': function(err, context) {
-          assert.include( context.save, "original" );
-          assert.equal( context.data, context.save.original );
+        'contains an \'plain\' save point': function(err, context) {
+          assert.include( context.save, "plain" );
+          assert.equal( context.data, context.save.plain );
         }
       }
     }
