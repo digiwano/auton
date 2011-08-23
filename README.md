@@ -1,6 +1,8 @@
 # Auton - automated resource compiler
 
-documentation coming later. meanwhile, here's an example:
+(for a quick start, see example/example.js. The code below is a simple example of how to define your own rules / chains)
+
+this is very rudimentary and i'd like a more complicated example in here.
 
 ```javascript
 var auton    = require('./lib/auton'),
@@ -31,7 +33,7 @@ function javascriptSave(type, filePath) {
   else if (type === 'compressed') {
     return output + ".min.js.gz";
   }
-  else if (type === 'original') {
+  else if (type === 'plain' || type === '__age_check__') {
     return output + ".js";
   }
   else {
