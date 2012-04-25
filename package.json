@@ -2,7 +2,7 @@
   "author": "Rando Christensen <digiwano@gmail.com>",
   "name": "auton",
   "description": "Extensible resource compiler/minifier/compressor tool",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "homepage": "https://github.com/digiwano/auton",
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
     "coffee-script": ">=1.1.1",
     "watch-tree-maintained":    ">=0.1.2",
     "asyncjs":       ">=0.0.5",
-    "colorize":      ">=0.1.0"
+    "colorize":      ">=0.1.0",
+    "handlebars":    ">=1.0.4"
   },
   "devDependencies": {
     "vows":       ">=0.5.0"
