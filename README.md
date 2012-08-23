@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/digiwano/auton.png)](http://travis-ci.org/digiwano/auton)
 # Auton - automated resource compiler
 
 (for a quick start, see example/example.js. The code below is a simple example of how to define your own rules / chains)
