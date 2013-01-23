@@ -1,0 +1,2 @@
+- .match() becomes .file() / .del() / .dir() / .rmdir()
+- plugins need .shutdown methods
