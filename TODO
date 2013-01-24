@@ -1,2 +1,5 @@
-- .match() becomes .file() / .del() / .dir() / .rmdir()
-- plugins need .shutdown methods
+- plugins need .shutdown methods so auton can cleanly shutdown
+- pluggable ui layer - ncurses & web ui's
+- alternative to file watcher: express plugin for on-the-fly rendering
+- tasks -
+- docs / tests
