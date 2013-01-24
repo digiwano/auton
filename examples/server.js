@@ -9,4 +9,3 @@ http.createServer(function (req, res) {
 
 console.log('Server running at http://127.0.0.1:1337/');
 console.error('Server stderr');
-console.log("what\nthe\nhell\ndamn\nguy");
