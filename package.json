@@ -2,7 +2,7 @@
   "author": "Rando Christensen <digiwano@gmail.com>",
   "name": "auton",
   "version": "0.5.0",
-  "description": "Your plastic pal who's fun to code with",
+  "description": "Automated node development environment & resource compiler",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
