@@ -1,5 +1,5 @@
 - plugins need .shutdown methods so auton can cleanly shutdown
 - pluggable ui layer - ncurses & web ui's
-- alternative to file watcher: express plugin for on-the-fly rendering
-- tasks -
+- alternative to file watcher: express plugin for on-the-fly resource regeneration
+- tasks
 - docs / tests
