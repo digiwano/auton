@@ -5,7 +5,7 @@
   "description": "Automated node development environment & resource compiler",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "license": "MIT",
   "dependencies": {
@@ -13,19 +13,19 @@
     "underscore": "~1.4.3",
     "eventemitter2": "~0.4.11",
     "minimatch": "~0.2.9",
-    "cssmin": "~0.3.2",
     "mkdirp": "~0.3.4",
     "wrench": "~1.4.4",
-    "nib": "~0.9.1",
-    "stylus": "~0.32.0",
-    "uglify-js": "~2.2.3",
-    "jshint": "~0.9.1",
     "watchr": "~2.3.3",
     "ansi": "~0.1.2",
     "moment": "~1.7.2",
     "string": "~1.2.0"
   },
   "devDependencies": {
+    "cssmin": "~0.3.2",
+    "nib": "~0.9.1",
+    "stylus": "~0.32.0",
+    "uglify-js": "~2.2.3",
+    "jshint": "~0.9.1",
     "chai": "~1.4.2",
     "sinon": "~1.5.2",
     "mocha": "~1.8.1"
