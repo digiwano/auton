@@ -1,7 +1,7 @@
 {
   "author": "Rando Christensen <digiwano@gmail.com>",
   "name": "auton",
-  "version": "0.5.0",
+  "version": "0.5.0-beta",
   "description": "Automated node development environment & resource compiler",
   "main": "index.js",
   "scripts": {
