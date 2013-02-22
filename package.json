@@ -18,7 +18,8 @@
     "watchr": "~2.3.3",
     "ansi": "~0.1.2",
     "moment": "~1.7.2",
-    "string": "~1.2.0"
+    "string": "~1.2.0",
+    "forever-monitor": "~1.1.0"
   },
   "devDependencies": {
     "cssmin": "~0.3.2",
