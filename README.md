@@ -1,3 +1,6 @@
+# Deprecated
+[gulp](http://gulpjs.com) came along a couple years after I wrote this and did everything I wanted to do but way better.
+
 # Auton
 ## Your plastic pal who's fun to code with
 
